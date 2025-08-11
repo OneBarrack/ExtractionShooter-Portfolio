@@ -1,7 +1,8 @@
 # Project GGG   
 **PC PVPVE 탑다운 루터 슈팅 익스트랙션 게임**
 
-<img width=30% height=30% src="https://github.com/user-attachments/assets/758379ea-318c-4da3-9315-d8eafb7ce36c">
+<img width=30% height=30% src="https://github.com/user-attachments/assets/758379ea-318c-4da3-9315-d8eafb7ce36c"> &nbsp; &nbsp; &nbsp;
+<img width=58.5% height=58.5% alt="스팀" src="https://github.com/user-attachments/assets/72129034-122a-459c-b89b-a78d7b6e08ca">
 
 ---
 
