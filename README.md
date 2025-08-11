@@ -1,5 +1,5 @@
 # Project GGG   
-**PC PVPVE 쿼터뷰 루터 슈팅 익스트랙션 게임**
+**PC PVPVE 탑다운 루터 슈팅 익스트랙션 게임**
 
 <img width=30% height=30% src="https://github.com/user-attachments/assets/758379ea-318c-4da3-9315-d8eafb7ce36c">
 
@@ -11,14 +11,14 @@
 *   **프로젝트명**: Project GGG
 *   **개발 기간**: 2022년 10월 ~ 2024년 2월 (약 1년 4개월)
 *   **플랫폼**: PC (Dedicated Server 기반 멀티플레이어)
-*   **장르**: PVPVE 쿼터뷰 루터 슈팅 익스트랙션 (Quarter-view Looter Shooter Extraction)
+*   **장르**: PVPVE 탑다운 루터 슈팅 익스트랙션 (Quarter-view Looter Shooter Extraction)
 *   **주요 성과**:
     *   2023년 12월, 스팀(Steam) 플랫폼에서 **글로벌 플레이 테스트**를 성공적으로 진행하였습니다.
     *   총 **7일간 약 4,000명의 유저**가 테스트에 참여하여 게임의 핵심 재미와 안정성을 검증받았습니다.
 
 ### 2. 개발 배경 및 본인 역할 (Development Background & My Role)
 
-본 프로젝트는 스팀 글로벌 서비스를 목표로 한 멀티플레이어 쿼터뷰 루터 슈팅 게임 개발 프로젝트였습니다.  
+본 프로젝트는 스팀 글로벌 서비스를 목표로 한 멀티플레이어 탑다운 루터 슈팅 게임 개발 프로젝트였습니다.  
 저는 클라이언트 프로그래머로서 게임의 핵심 인/아웃게임 플레이 흐름 구현 및 UI/UX 시스템 개발을 주도하였으며,   
 Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영역에 걸쳐 프로젝트의 성공적인 글로벌 플레이 테스트에 기여하였습니다.
 
@@ -79,8 +79,6 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 *   **SteamFest JP / US Region의 Dedicated Server 및 MongoDB DB 관리**를 담당하여 글로벌 테스트 환경의 안정성을 확보했습니다.
 *   **서버 머신/DB 관리 및 빌드 대응** 업무를 수행하며 배포 및 운영 전반에 기여했습니다.
 *   발생하는 **크래시(Crash) 분석 및 수정, 버그(Bug Fix)** 에 적극 대응하여 게임의 안정성과 완성도 향상에 기여했습니다.
-    ![안정적인 플레이](https://raw.githubusercontent.com/your-username/your-repo/main/images/stable_gameplay.png)
-    *(선택: 게임이 안정적으로 구동되는 인게임 플레이 장면 또는 버그/크래시 수정 전후를 간접적으로 보여주는 스크린샷)*
 
 ### 5. 기술적 도전과 해결 과정 (Technical Challenges & Solutions)
 
