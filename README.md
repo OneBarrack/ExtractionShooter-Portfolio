@@ -79,7 +79,7 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 *   **SteamFest JP / US Region의 Dedicated Server 및 MongoDB DB 관리**를 담당하여 글로벌 테스트 환경의 안정성 확보
 *   **서버 머신/DB 관리 및 빌드 대응** 업무를 수행하며 배포 및 운영 전반에 기여
 *   발생하는 **크래시(Crash) 분석 및 수정, 버그(Bug Fix)** 에 적극 대응하여 게임의 안정성과 완성도 향상에 기여
-<--
+<!--
 ### 5. 기술적 도전과 해결 과정 (Technical Challenges & Solutions)
 
 #### 5.1. [구체적인 문제점 작성 예: Dedicated Server 환경에서의 클라이언트와 서버 간 데이터 동기화 최적화]
