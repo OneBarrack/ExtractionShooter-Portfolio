@@ -1,11 +1,13 @@
-# Project GGG: PC PVPVE 쿼터뷰 루터 슈팅 익스트랙션 게임 개발
+# Project GGG   
+**PC PVPVE 쿼터뷰 루터 슈팅 익스트랙션 게임**
 
-![Project GGG 대표 이미지](https://raw.githubusercontent.com/your-username/your-repo/main/images/main_gameplay.png)
+<img src="https://github.com/user-attachments/assets/758379ea-318c-4da3-9315-d8eafb7ce36c" width=30% height=30%>
 
 ---
 
 ### 1. 프로젝트 개요 (Project Overview)
 
+*   **회사명**: Action Square Co., Ltd. (액션스퀘어(주))
 *   **프로젝트명**: Project GGG
 *   **개발 기간**: 2022년 10월 ~ 2024년 2월 (약 1년 4개월)
 *   **플랫폼**: PC (Dedicated Server 기반 멀티플레이어)
