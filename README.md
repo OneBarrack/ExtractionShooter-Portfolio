@@ -50,7 +50,7 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 본 프로젝트에서 클라이언트 프로그래머로서 제가 담당하거나 기여한 핵심 기능들은 다음과 같습니다.
 　  
 #### 4.1. 핵심 게임플레이 흐름 구축
-*   사용자의 매칭 대기부터 인게임 진입, 플레이, 그리고 게임 종료까지의 **전반적인 인/아웃게임 플레이 흐름 구축**
+*   **[Owner / 전담 담당]** 사용자의 매칭 대기부터 인게임 진입, 플레이, 그리고 게임 종료까지의 **전반적인 인/아웃게임 플레이 흐름 구축**
 <img width=30% height=30% alt="게임플레이_흐름_구축_1" src="https://github.com/user-attachments/assets/f3e112f0-c742-4f6d-8e2c-e4b37354df4f" />
 <img width=30% height=30% alt="게임플레이_흐름_구축_3" src="https://github.com/user-attachments/assets/551d03ec-d26f-4394-876e-d591103a9137" />
 <img width=30% height=30% alt="게임플레이_흐름_구축_4" src="https://github.com/user-attachments/assets/aa1f73d0-4ce5-4d41-b0d4-10eaa76c58fa" />
@@ -60,39 +60,40 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 
 　  
 #### 4.2. 인게임 컨텐츠 개발
-*   **인게임 상호작용 아이템 상자 및 탈출포드 시스템, 인벤토리 UI/UX**를 담당하여 유저의 액션에 따른 보상 획득 로직 처리
+*  **[Maintainer]** **인게임 상호작용 및 인벤토리 시스템** 및
+*  **[Owner / 전담 담당]** **아이템 상자 및 탈출포드 시스템, 인벤토리 UI/UX**를 담당하여 유저의 액션에 따른 보상 획득 로직 처리
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_1" src="https://github.com/user-attachments/assets/e60b3801-4b18-48d8-8dcd-7013ca29f228" />
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_2" src="https://github.com/user-attachments/assets/ac44a0a1-5ade-45b0-9265-6965494ab490" />
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_3" src="https://github.com/user-attachments/assets/c97ae170-b42f-45a0-bcfa-6456a80c2f74" />
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_탈출포드" src="https://github.com/user-attachments/assets/1c08e197-9e7b-4e54-a09a-8c5abb313ff7" />
 
 　  
-*   **인게임 맵/미니맵 기능**을 담당하여 플레이어의 현재 위치 및 주변 환경 정보를 시각적으로 제공하고, 전략적인 플레이 지원
+*   **[Maintainer]** **인게임 맵/미니맵 기능**을 담당하여 플레이어의 현재 위치 및 주변 환경 정보를 시각적으로 제공하고, 전략적인 플레이 지원
 <img width=19.5% height=19.5% alt="인게임_컨텐츠_맵_미니맵_1" src="https://github.com/user-attachments/assets/3ae23ced-3479-4914-8bf1-033b645a5e26" />
 <img width=30% height=30% alt="인게임_컨텐츠_맵_미니맵_2" src="https://github.com/user-attachments/assets/1d4835a3-f3e3-4c55-89d6-32ecd7f30cee" />
 
 　  
 #### 4.3. 커뮤니티 및 상점 시스템 클라이언트 개발
-*   멀티플레이어 환경에서의 **파티 시스템 클라이언트 로직**을 구현하여 유저 간의 협동 플레이 지원
+*   **[Owner / 전담 담당]** 멀티플레이어 환경에서의 **파티 시스템 클라이언트 로직**을 구현하여 유저 간의 협동 플레이 지원
 <img width=30% height=30% alt="파티시스템_1" src="https://github.com/user-attachments/assets/7c0eed9d-dd9e-460b-b3d4-57b6dd00af1a" />
 <img width=30% height=30% alt="파티시스템_2" src="https://github.com/user-attachments/assets/717df594-45ce-4ae6-875f-42736e97a642" />
 
 　  
-*   게임 내 **상점 클라이언트**를 개발하여 아이템 구매 및 판매 기능을 직관적인 UI로 제공
+*   **[Owner / 전담 담당]** 게임 내 **상점 클라이언트**를 개발하여 아이템 구매 및 판매 기능을 직관적인 UI로 제공
 <img width=30% height=30% alt="아웃게임_컨텐츠_상점_1" src="https://github.com/user-attachments/assets/aa056e52-758e-4cac-991d-33958d428c9a" />
 <img width=30% height=30% alt="아웃게임_컨텐츠_상점_2" src="https://github.com/user-attachments/assets/541faf22-755f-40f4-84ca-9089ac3ceb7a" />
 <img width=30% height=30% alt="아웃게임_컨텐츠_상점_3" src="https://github.com/user-attachments/assets/e7feb8a6-226b-4942-889b-c8b1c7709b55" />
 <img width=30% height=30% alt="아웃게임_컨텐츠_상점_4" src="https://github.com/user-attachments/assets/47a2c7a9-41cb-4a94-85a9-829731e822fe" />
 
 　  
-#### 4.5. 데이터 연동 및 UI 처리
-*   **Json을 활용하여 웹 서버 DB와의 Read/Write 통신 로직**을 통한 게임 내 동적 데이터 관리 및 연동 경험
-*   **UMG(Unreal Motion Graphics)를 활용한 UI 프로그래밍**에 전반적으로 대응하여 다양한 인게임 및 아웃게임 UI를 적용하고 사용자 경험 최적화
+#### 4.4. 데이터 연동 및 UI 처리
+*   **[Maintainer]** **Json을 활용하여 웹 서버 DB와의 Read/Write 통신 로직**을 통한 게임 내 동적 데이터 관리 및 연동 경험
+*   **[Owner / 전담 담당]** **UMG(Unreal Motion Graphics)를 활용한 UI 프로그래밍**에 전반적으로 대응하여 다양한 인게임 및 아웃게임 UI를 적용하고 사용자 경험 최적화
 
-#### 4.6. 운영 및 안정성 강화
-*   **SteamFest JP / US Region의 Dedicated Server 및 MongoDB DB 관리**를 담당하여 글로벌 테스트 환경의 안정성 확보
-*   **서버 머신/DB 관리 및 빌드 대응** 업무를 수행하며 배포 및 운영 전반에 기여
-*   발생하는 **크래시(Crash) 분석 및 수정, 버그(Bug Fix)** 에 적극 대응하여 게임의 안정성과 완성도 향상에 기여
+#### 4.5. 운영 및 안정성 강화 
+*   **[협업 지원]** **SteamFest JP / US Region의 Dedicated Server 및 MongoDB DB 관리**를 담당하여 글로벌 테스트 환경의 안정성 확보
+*   **[협업 지원]** **서버 머신/DB 관리 및 빌드 대응** 업무를 수행하며 배포 및 운영 전반에 기여
+*   **[협업 지원]** 발생하는 **크래시(Crash) 분석 및 수정, 버그(Bug Fix)** 에 적극 대응하여 게임의 안정성과 완성도 향상에 기여
 <!--
 ### 5. 기술적 도전과 해결 과정 (Technical Challenges & Solutions)
 
