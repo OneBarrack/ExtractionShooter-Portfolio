@@ -1,4 +1,10 @@
 # Project GGG   
+이 저장소는 제가 **Project GGG 개발에 참여했던 경험**을 기반으로,  
+제가 맡았던 역할과 학습 내용을 정리한 **포트폴리오 용도 문서**입니다.  
+**회사 원본 소스 코드나 자산은 포함되어 있지 않으며**,  
+상업적/실제 개발과는 무관한 개인 정리 자료입니다.
+
+  
 **PC PVPVE 탑다운 루터 슈팅 익스트랙션 게임**
 
 <img width=30% height=30% src="https://github.com/user-attachments/assets/758379ea-318c-4da3-9315-d8eafb7ce36c"> &nbsp;
