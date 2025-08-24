@@ -7,6 +7,10 @@
 단, 이 저장소에는 원본 소스 코드나 회사의 미공개 자산은 일절 포함되어 있지 않으며,  
 순수하게 개인 경험 정리와 포트폴리오 목적의 문서만 담고 있습니다.
 
+## 📌 Quick Summary
+- Unreal Engine 5 기반 PC Extraction Shooter 개발 참여
+- 역할: 클라이언트 프로그래머 (인게임/아웃게임 콘텐츠, UI, 네트워크, DB, 빌드)
+- 성과: 2023년 12월 **ActionSquare Steam Festival** 공개, 글로벌 플레이어 수천 명 테스트 참여
   
 **PC PVPVE 탑다운 루터 슈팅 익스트랙션 게임**
 
@@ -63,7 +67,7 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_탈출포드" src="https://github.com/user-attachments/assets/1c08e197-9e7b-4e54-a09a-8c5abb313ff7" />
 
 　  
-*   **인게임 맵/미니맵 기능**을 개발하여 플레이어의 현재 위치 및 주변 환경 정보를 시각적으로 제공하고, 전략적인 플레이 지원
+*   **인게임 맵/미니맵 기능**을 담당하여 플레이어의 현재 위치 및 주변 환경 정보를 시각적으로 제공하고, 전략적인 플레이 지원
 <img width=19.5% height=19.5% alt="인게임_컨텐츠_맵_미니맵_1" src="https://github.com/user-attachments/assets/3ae23ced-3479-4914-8bf1-033b645a5e26" />
 <img width=30% height=30% alt="인게임_컨텐츠_맵_미니맵_2" src="https://github.com/user-attachments/assets/1d4835a3-f3e3-4c55-89d6-32ecd7f30cee" />
 
