@@ -10,7 +10,7 @@
 ## 📌 Quick Summary
 - Unreal Engine 5 기반 PC Extraction Shooter 개발 참여
 - 역할: 클라이언트 프로그래머 (인게임/아웃게임 콘텐츠, UI, 네트워크, DB, 빌드)
-- 성과: 2023년 12월 **ActionSquare Steam Festival** 공개, 글로벌 플레이어 수천 명 테스트 참여
+- 성과: 2023년 12월 **ActionSquare Steam Festival** 글로벌 테스트에서 7일간 약 4,000명의 유저 참여, 안정성 확보(크래시 0건)
   
 **PC PVPVE 탑다운 루터 슈팅 익스트랙션 게임**
 
