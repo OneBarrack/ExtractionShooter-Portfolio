@@ -124,6 +124,7 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 *   C++과 Go 언어, 그리고 MongoDB를 아우르는 다양한 기술 스택을 경험하며, **서로 다른 시스템 간의 연동 및 문제 해결 능력**을 한층 더 발전시킬 수 있었습니다.
 
 ### 6. 이미지 출처 및 참고 영상 링크 (Video Links)
-
 *   **[프로젝트 플레이 참고영상_솔로 (YouTube)](https://www.youtube.com/watch?v=YABNqBDIPUo)**
 *   **[프로젝트 플레이 참고영상_파티 (YouTube)](https://www.youtube.com/watch?v=TTiAwMBl4nw)**
+*   위 링크는 사용자 플레이 영상(UGC)로, 당사/개발사의 공식 자료가 아닙니다.   
+    링크 만료/삭제가 발생할 수 있으며, 영상의 저작권은 각 업로더 또는 권리자에게 있습니다.
