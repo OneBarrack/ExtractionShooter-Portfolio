@@ -123,7 +123,7 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 *   글로벌 플레이 테스트를 성공적으로 진행하며, **실제 유저 피드백을 기반으로 게임을 개선하는 과정**을 경험하고, 안정적인 서비스 운영의 중요성을 깨달았습니다.
 *   C++과 Go 언어, 그리고 MongoDB를 아우르는 다양한 기술 스택을 경험하며, **서로 다른 시스템 간의 연동 및 문제 해결 능력**을 한층 더 발전시킬 수 있었습니다.
 
-### 6. 시각 자료 및 링크 (Visuals & Links)
+### 6. 이미지 출처 및 참고 영상 링크 (Video Links)
 
 *   **[프로젝트 플레이 참고영상_솔로 (YouTube)](https://www.youtube.com/watch?v=YABNqBDIPUo)**
 *   **[프로젝트 플레이 참고영상_파티 (YouTube)](https://www.youtube.com/watch?v=TTiAwMBl4nw)**
