@@ -8,7 +8,7 @@
 
 ## Quick Summary
 - Unreal Engine 5 기반 PC Extraction Shooter 개발 참여
-- 역할: 클라이언트 프로그래머 (인게임/아웃게임 콘텐츠, UI, 네트워크, DB, 빌드)
+- 역할: 클라이언트 프로그래머 (인게임/아웃게임 콘텐츠, UI 로직, 네트워크, DB, 빌드)
 - 성과: 2023년 12월 **ActionSquare Steam Festival** 글로벌 테스트에서 7일간 약 4,000명의 유저 참여, 안정성 확보(크래시 0건)
   
 **PC PVPVE 탑다운 루터 슈팅 익스트랙션 게임**
@@ -32,8 +32,9 @@
 ### 2. 개발 배경 및 본인 역할 (Development Background & My Role)
 
 본 프로젝트는 스팀 글로벌 서비스를 목표로 한 멀티플레이어 탑다운 루터 슈팅 게임 개발 프로젝트였습니다.  
-저는 클라이언트 프로그래머로서 게임의 핵심 인/아웃게임 플레이의 컨텐츠 구현 및 UI/UX 시스템 개발에 참여하였으며,
-Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영역에 걸쳐 프로젝트의 성공적인 글로벌 플레이 테스트에 기여하였습니다.
+저는 클라이언트 프로그래머로서 게임의 핵심 인/아웃게임 플레이의 콘텐츠 구현을 담당했으며,  
+UI 디자이너와 협업하여 UMG 기반 UI 구조에 로직, 상태 처리 및 기능 구현을 수행했습니다.  
+또한 프로젝트 운영 과정에서는 Dedicated Server 및 DB 운영/관리 지원, 빌드 대응, 크래시 분석 및 수정 등 안정성 확보를 위한 업무에도 기여했습니다.
 
 ### 3. 기술 스택 및 개발 환경 (Tech Stack & Development Environment)
 
@@ -58,9 +59,10 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 <img width=30% height=30% alt="게임플레이_흐름_구축_7" src="https://github.com/user-attachments/assets/f271e9d2-4ac9-4357-97b0-bcb63b6ef62a" />
 
 　  
-#### 4.2. 인게임 컨텐츠 개발
-*  **[Maintainer]** **인게임 상호작용 및 인벤토리 시스템** 및
-*  **[Owner / 전담 담당]** **아이템 상자 및 탈출포드 시스템, 인벤토리 UI/UX**를 담당하여 유저의 액션에 따른 보상 획득 로직 처리
+#### 4.2. 인게임 콘텐츠 개발
+*  **[Maintainer]** **인게임 상호작용 및 인벤토리 시스템** 기능 개발
+*  **[Owner / 전담 담당]** **아이템 상자 및 탈출포드 시스템, 인벤토리 UI/UX**  
+UMG 기반 UI에서 게임 데이터 및 상태 변화에 따른 로직, 이벤트 처리 및 기능 구현을 담당하여 유저의 액션에 따른 보상 획득 로직 처리
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_1" src="https://github.com/user-attachments/assets/e60b3801-4b18-48d8-8dcd-7013ca29f228" />
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_2" src="https://github.com/user-attachments/assets/ac44a0a1-5ade-45b0-9265-6965494ab490" />
 <img width=30% height=30% alt="인게임_컨텐츠_개발_아이템상자_3" src="https://github.com/user-attachments/assets/c97ae170-b42f-45a0-bcfa-6456a80c2f74" />
@@ -86,8 +88,8 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
 
 　  
 #### 4.4. 데이터 연동 및 UI 처리
-*   **[Maintainer]** **Json을 활용하여 웹 서버 DB와의 Read/Write 통신 로직**을 통한 게임 내 동적 데이터 관리 및 연동 경험
-*   **[Owner / 전담 담당]** **UMG(Unreal Motion Graphics)를 활용한 UI 프로그래밍**에 전반적으로 대응하여 다양한 인게임 및 아웃게임 UI를 적용하고 사용자 경험 최적화
+*   **[Maintainer]** **JSON을 활용하여 웹 서버 DB와의 Read/Write 통신 로직**을 통한 게임 내 동적 데이터 관리 및 연동 경험
+*   **[Owner / 전담 담당]** **UMG(Unreal Motion Graphics) 기반 UI**에서 게임 상태(Replication/OnRep, 데이터 갱신)와 연동되는 UI 로직, 상태 처리, 이벤트 바인딩 및 기능 구현을 담당
 
 #### 4.5. 툴 제작 경험 – 로비/인게임 테스트 보조용 디버깅 기능 [Owner / 전담 담당]
 
@@ -110,9 +112,9 @@ Dedicated Server 및 DB 관리, 빌드/크래시 분석 대응 등 다양한 영
   **UI 피드백 주기 단축**, **수정 사이클 가속화**, **협업 효율 향상**에 실질적으로 기여했습니다.
 
 #### 4.6. 운영 및 안정성 강화 
-*   **[협업 지원]** **SteamFest JP / US Region의 Dedicated Server 및 MongoDB DB 관리**를 담당하여 글로벌 테스트 환경의 안정성 확보
-*   **[협업 지원]** **서버 머신/DB 관리 및 빌드 대응** 업무를 수행하며 배포 및 운영 전반에 기여
-*   **[협업 지원]** 발생하는 **크래시(Crash) 분석 및 수정, 버그(Bug Fix)** 에 적극 대응하여 게임의 안정성과 완성도 향상에 기여
+*   **[기여]** **SteamFest JP / US Region의 Dedicated Server 및 MongoDB DB 관리**를 담당하여 글로벌 테스트 환경의 안정성 확보
+*   **[기여]** **서버 머신/DB 관리 및 빌드 대응** 업무를 수행하며 배포 및 운영 전반에 기여
+*   **[기여]** 발생하는 **크래시(Crash) 분석 및 수정, 버그(Bug Fix)** 에 적극 대응하여 게임의 안정성과 완성도 향상에 기여
 <!--
 ### 5. 기술적 도전과 해결 과정 (Technical Challenges & Solutions)
 
